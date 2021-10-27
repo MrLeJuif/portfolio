@@ -1,0 +1,390 @@
+
+:root{
+    --color1:#d89584;
+    --color2:#F4F4F4;
+}
+
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+iframe{
+    width: 100%;
+    height: 350px;
+}
+
+div.cover{
+    background: url(cover_overlay.png) no-repeat center/100% 100%, url(cover.jpg) no-repeat center/cover;
+    height: 360px;
+    position: relative;
+}
+
+img.cover-profil{
+    height: 140px;
+    position: relative;
+    left: 50%;
+    margin-left: -70px;
+    margin-top: 50px;
+}
+
+h1{
+    color:white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+div.cover p{
+    color: lightgray;
+    text-align: center;
+    margin-top: 4px;
+    font-size: 14px;
+}
+
+div.cover-contact{
+    /*background-color: #FF000080;*/
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    border-left: 4px solid var(--color1);
+    padding-left: 8px;
+}
+
+div.cover-contact a{
+    text-decoration: none;
+}
+div.cover-contact a:hover{
+    color: var(--color1);
+}
+
+div.cover-contact p{
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+div.cover-contact p:first-child{
+    margin-bottom: 14px
+}
+
+div.cover-contact *{
+    color: white;
+    font-size: 14px;
+}
+
+a.me-contacter{
+    border: 3px solid var(--color1);
+    padding: 8px 20px;
+    color: var(--color1);
+    font-size: 12px;
+    text-decoration: none;
+    background-color: #00000040;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+a.me-contacter:hover{
+    color: white;
+    border: 3px solid white;
+}
+
+div.section{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: auto;
+    
+}
+
+div.section-grise1 {
+    background: url(triangle2white.svg) no-repeat center bottom -1px/100%;
+    background-color: var(--color2);
+    padding-bottom: 70px;
+
+}
+
+div.section-grise2 {
+    background: url(triangle1white.svg) no-repeat center top/100%;
+    background-color: var(--color2);
+    padding-top: 120px;
+}
+
+h2{
+    text-align: center;
+    font-size: 34px;
+    margin-top: 0px;
+}
+
+div.separateur{
+    /*border-top: 2px solid gray;
+    margin-top: 40px;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    padding: 0px 200px 0px 0px;*/
+    height: 1px;
+    width: 150px;
+    background-color: gray;
+    position: absolute;
+    left: 50%;
+    margin-left: -75px;
+}
+
+.display-mobile{
+    display: none;
+}
+
+div.section-grise1 div.moi{
+    text-align: center;
+    font-size: 22px;
+    color: #656565;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    max-width: 450px;
+    padding-top: 0px;
+}
+
+img.col-contenu{
+    width: 40%;
+}
+
+div.col-contenu{
+    width: 60%;
+    padding-left: 15px
+}
+
+.float-right{
+    float: right;
+    box-sizing: border-box;
+}
+
+/*div.text_avec_ligne_verticale{
+    padding-top: 0px;
+    border-left: 4px solid var(--color1);
+}*/
+
+div.text_avec_ligne_verticale{
+    border-left: 4px solid var(--color1);
+    padding-left: 10px;
+    height: 50px;
+    display: inline-block;
+}
+
+div.text_avec_ligne_verticale p{
+    margin-top: 0px;
+}
+
+.trait_vertical{
+    height: 50px;
+    width: 4px;
+    background-color: var(--color1);
+    margin-right: 8px;   
+}
+
+.col-portofolio{
+    width: 48%;
+}
+
+.frame{
+    width: 80%;
+    box-shadow: 0px 0px 7px 1px lightgray;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+div.frame p.parlons-de-votre-projet{
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0px 10px 0px;
+    padding: 10px 10px 0px 10px ;
+
+}
+
+img.cover-profil-min{
+    height: 100px;
+}
+
+.inside{
+    margin: 0px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+
+/* portfolio-site-restaurant */
+
+
+.portfolio-header{
+    height: 90px;
+    background: url(header.jpg) no-repeat center/cover;
+    position: relative;
+}
+
+div.portfolio-header p{
+    font-size: 20px;
+    font-weight: bold;
+    color: ivory;
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    border-left: 4px solid var(--color1);
+    padding-left: 8px;
+    padding-top: 7px;
+}
+
+div.portfolio-header a.me-contacter{
+    position: absolute;
+    right: 20px;
+    margin-top: 20px;
+}
+
+.portfolio_0{
+    position: relative;
+}
+
+
+.portfolio h1{
+    font-size: 46px;
+    color: black;
+}
+.portfolio h2{
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.portfolio_back{
+    position: absolute;
+    top: 15px;
+}
+
+.portfolio_back a{
+    color: var(--color1);
+}
+
+.portfolio_img{
+    width: 70%;
+    margin: auto;
+}
+
+.portfolio_img img{
+    min-width: 550px;
+    width: 100%;
+}
+
+/* RESPONSIVE DESIGN*/
+
+@media only screen and (max-width: 767px) {
+
+    img.cover-profil{
+        height: 100px;
+        margin-left: -50px;
+        margin-top: 80px;
+    }
+    
+    h1{
+        font-size: 20px;
+    }
+    
+    div.cover p{
+        margin-top: 8px;
+        font-size: 12px;
+    }
+
+    a.me-contacter{
+        font-size: 10px;
+    }
+
+    div.section{
+        padding-left: 20px;
+        padding-right: 20px;        
+    }
+    
+    div.section-grise1 {
+        padding-bottom: 30px;
+    }
+
+    div.section-grise1 div.moi{
+        font-size: 18px;
+    }
+
+    h2{
+        text-align: center;
+        font-size: 28px;
+        margin-top: 0px;
+    }
+    img.col-contenu{
+        width: 100%;
+    }
+
+    div.col-contenu{
+        padding-top: 20px;
+        width: 100%;
+        padding-left: 0px;
+    }
+    
+    .float-right{
+        box-sizing: border-box;
+    }
+
+    .col-portofolio{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    div.section-grise2 {
+        padding-top: 60px;
+  }
+
+  .frame{
+    width: 100%;
+    margin: 0px;
+    box-shadow: none;
+    
+}
+
+div.frame p.parlons-de-votre-projet{
+    margin: 0px 0px 10px 0px;
+    padding: 0px 10px 0px 10px ;
+    font-size: 20px;
+}
+
+/* PORTFOLIO MOBILE*/
+
+div.portfolio-header p{
+    font-size: 15px;
+    bottom: 25px;
+    left: 10px;
+}
+
+.portfolio h1{
+    font-size: 28px;
+    color: black;
+}
+.portfolio h2{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.portfolio_img{
+    width: 100%;
+    margin: 0px;
+}
+
+.portfolio_img img{
+    min-width: 270px;
+    max-width: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.display-mobile{
+    display: block;
+    margin-top: -30px;
+}
+
+}
